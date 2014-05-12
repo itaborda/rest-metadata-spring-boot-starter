@@ -1,0 +1,100 @@
+/* 
+ * MAIN CSS
+ *
+ * All styles for the screen, other than color-specific styles,
+ * should be included here.  
+ *
+ * COMMON STYLES
+ */
+body {
+	font: 12px Helvetica, Arial, "Bitstream Vera Sans", sans-serif;
+/* 	background-color: #dfdfdf; */
+}
+/*
+ * TEXT FORMATTING STYLES
+ */
+h1 {
+	font-size: 1.4em;
+	padding: 12px 0 5px 0;
+	line-height: 125%;
+	color: #002E62;
+	border-bottom: 1px solid #BAD9EC;
+}
+
+h2 {
+	font-size: 1.2em;
+	padding: 10px 0 2px 0;
+	color: #002E62;
+}
+
+h3 {
+	font-size: 1em;
+	padding: 8px 0 5px 0;
+	color: #002E62;
+}
+
+h4 {
+	font-size: 1em;
+	padding-top: 8px;
+	color: #333;
+}
+
+h5 {
+	font-size: 1em;
+	padding-top: 6px;
+	color: #333;
+}
+
+/*
+ * LINK STYLES
+ */
+ 
+a:link, a:visited {
+	color: #333;
+	text-decoration: underline;
+}
+
+a:hover, a:focus {
+	color: #0093CF;
+	text-decoration: underline;
+}
+
+a:active, a.active { 
+	color: #0093CF;
+}
+  
+/*
+ * CONTAINER STYLES
+ */ 
+#container {
+	margin: 0;
+	padding-bottom: 20px;
+	overflow:hidden;
+	background:#fff;
+}
+
+/*
+ * TABLE STYLES
+ */
+table {
+	border-spacing: 0;
+	margin: 0;
+	border-collapse: collapse;
+	color:#666;
+}
+
+th {
+	height: 19px;
+	text-align: left;
+	font-weight: bold;
+	margin: 0;
+	padding: 3px 6px 0 6px;
+	line-height: 19px;
+	color:#333;
+}
+
+td {
+	margin: 0;
+	padding: 4px 6px 4px 6px;
+	vertical-align: top;
+}
