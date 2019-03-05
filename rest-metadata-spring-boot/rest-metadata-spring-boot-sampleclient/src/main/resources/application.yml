@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: rest-metadata-spring-boot
+  data:
+    mongodb:
+      database: restmetadata
+      #uri: mongodb://${MONGO_USERNAME}:${MONGO_PASSWORD}@mongodb/${MONGO_DATABASE}
+
+  thymeleaf:
+    enabled: true
+    cache: false
+    check-template: true
+    check-template-location: true
+    content-type: text/html
+    encoding: UTF-8
+
+logging:
+  level:
+    ROOT: INFO
+    org.springframework: DEBUG
+    com.github.itaborda.restmetadata: DEBUG
+

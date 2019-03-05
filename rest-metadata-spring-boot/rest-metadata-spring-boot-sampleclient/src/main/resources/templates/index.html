@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>The RestMetadata - Spring Boot - Example</title>
+
+    <link rel="stylesheet" th:href="@{webjars/bootstrap/css/bootstrap.min.css}"/>
+    <link rel="stylesheet" th:href="@{webjars/font-awesome/css/all.min.css}"/>
+
+    <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">-->
+    <link rel="stylesheet" th:href="@{/css/main.css}"/>
+
+    <link rel="stylesheet" th:href="@{/restmetadata/css/angular/1/main.css}"/>
+
+    <!--<link rel="stylesheet" th:href="@{webjars/restmetadata/css/restmetadata-angular.min.css}"/>-->
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand navbar-nav mr-auto mt-2 mt-lg-0" href="#">isaactaborda.me</a>
+    <form class="form-inline">
+        <a class="my-2 my-sm-0" style="color: slategrey;" target="_blank" href="https://github.com/itaborda/rest-metadata-spring-boot-starter">
+            <i class="fab fa-github fa-3x"></i>
+        </a>
+    </form>
+</nav>
+
+<main role="main" class="container" ng-app="metadataApp">
+
+    <div class="starter-template">
+        <h1>Hello! Wellcome to Dynamic RestMetadata</h1>
+        <h2>
+            <!--<span th:text="'Hello, ' + ${message} + ' World!'"></span>-->
+            <span th:text="'Spring Boot Web App'"></span>
+        </h2>
+    </div>
+
+    <ol>
+        <li><a target="_blank" href="restmetadata/get/1">Get JSON with - NO - Metadata</a></li>
+        <li><a target="_blank" href="restmetadata/get/1/metadata">Get JSON with Metadata</a></li>
+    </ol>
+
+    <div class="container" ng-controller="IndexCtrl" ng-init="init()">
+        <h2>Click to sample RestMetadata DynamicForm</h2>
+
+        <button type="button" ng-click="load()" class="btn btn-primary">Load</button>
+
+        <form id="form-content"/>
+    </div>
+
+</main>
+<!-- /.container -->
+
+<script type="text/javascript" th:src="@{webjars/angularjs/angular.min.js}"></script>
+<script type="text/javascript" th:src="@{webjars/jquery/jquery.min.js}"></script>
+<script type="text/javascript" th:src="@{webjars/bootstrap/js/bootstrap.min.js}"></script>
+<script type="text/javascript" th:src="@{webjars/angular-ui-bootstrap/ui-bootstrap.min.js}"></script>
+<script type="text/javascript" th:src="@{/restmetadata/js/angular/1/main.js}"></script>
+<script type="text/javascript" th:src="@{/js/main.js}"></script>
+<!--<script type="text/javascript" th:src="@{webjars/restmetadata/js/angular/restmetadata-angular.min.js}"></script>-->
+
+</body>
+</html>

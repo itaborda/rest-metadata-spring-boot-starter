@@ -1,0 +1,7 @@
+com/github/itaborda/restmetadata/springboot/RestMetadataAutoConfiguration.class
+com/github/itaborda/restmetadata/springboot/SpringBeanFactoryWrapper.class
+com/github/itaborda/restmetadata/springboot/mvc/ValueOptionMethodReturnValueHandler.class
+com/github/itaborda/restmetadata/springboot/mvc/MetadataEntityMethodReturnValueHandler.class
+com/github/itaborda/restmetadata/springboot/mvc/MetadataMethodParameter.class
+com/github/itaborda/restmetadata/springboot/mvc/MetadataBeanFactoryPostProcessor.class
+META-INF/spring-autoconfigure-metadata.properties

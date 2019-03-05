@@ -1,0 +1,6 @@
+/home/itaborda/dev/me/rest-metadata/rest-metadata-spring-boot/rest-metadata-spring-boot-autoconfigure/src/main/java/com/github/itaborda/restmetadata/springboot/mvc/MetadataMethodParameter.java
+/home/itaborda/dev/me/rest-metadata/rest-metadata-spring-boot/rest-metadata-spring-boot-autoconfigure/src/main/java/com/github/itaborda/restmetadata/springboot/RestMetadataAutoConfiguration.java
+/home/itaborda/dev/me/rest-metadata/rest-metadata-spring-boot/rest-metadata-spring-boot-autoconfigure/src/main/java/com/github/itaborda/restmetadata/springboot/SpringBeanFactoryWrapper.java
+/home/itaborda/dev/me/rest-metadata/rest-metadata-spring-boot/rest-metadata-spring-boot-autoconfigure/src/main/java/com/github/itaborda/restmetadata/springboot/mvc/MetadataBeanFactoryPostProcessor.java
+/home/itaborda/dev/me/rest-metadata/rest-metadata-spring-boot/rest-metadata-spring-boot-autoconfigure/src/main/java/com/github/itaborda/restmetadata/springboot/mvc/MetadataEntityMethodReturnValueHandler.java
+/home/itaborda/dev/me/rest-metadata/rest-metadata-spring-boot/rest-metadata-spring-boot-autoconfigure/src/main/java/com/github/itaborda/restmetadata/springboot/mvc/ValueOptionMethodReturnValueHandler.java

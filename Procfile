@@ -1,0 +1,1 @@
+web: java -Dserver.port=$PORT -jar rest-metadata-spring-boot/rest-metadata-spring-boot-sampleclient/target/rest-metadata-spring-boot-sampleclient-0.0.1-SNAPSHOT.jar
